@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="RecursosHumanos.Diseños.CardEmpleadoUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RecursosHumanos.Diseños"
+             mc:Ignorable="d" 
+             d:DesignHeight="25" d:DesignWidth="700">
+    <Grid>
+        <Border Background="#FFE6E6E6" CornerRadius="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" VerticalAlignment="Center">
+                    <TextBlock Text="FAGD900210CHBR08" FontSize="15" HorizontalAlignment="Center"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="1" VerticalAlignment="Center">
+                    <TextBlock Text="Jose Daniel" FontSize="15" HorizontalAlignment="Center"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="2" VerticalAlignment="Center">
+                    <TextBlock Text="Tuxtla Gutiérrez" FontSize="15" HorizontalAlignment="Center"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="3" VerticalAlignment="Center">
+                    <TextBlock Text="529612674521" FontSize="15" HorizontalAlignment="Center"></TextBlock>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
